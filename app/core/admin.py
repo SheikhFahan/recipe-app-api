@@ -49,3 +49,4 @@ class UserAdminPage(BaseUserAdmin):
 
 
 admin.site.register(models.User, UserAdminPage)
+admin.site.register(models.Recipe)
